@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="260.0" prefWidth="366.0" style="-fx-background-color: #000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="documentserializer.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" alignment="CENTER" defaultButton="true" layoutX="126.0" layoutY="178.0" mouseTransparent="true" onAction="#handleButtonAction" opacity="0.61" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #fff; -fx-border-radius: 5; -fx-border-style: none; -fx-rotate: 0; -fx-background-insets: 20; -fx-alignment: center; -fx-background-insets: 10; -fx-background-radius: 5; -fx-border-color: #000; -fx-border-width: 1;" text="Login" textOverrun="WORD_ELLIPSIS">
+         <opaqueInsets>
+            <Insets bottom="10.0" />
+         </opaqueInsets>
+         <effect>
+            <Reflection />
+         </effect></Button>
+      <Button fx:id="button1" cancelButton="true" layoutX="242.0" layoutY="178.0" mouseTransparent="true" onAction="#handleButtonAction" opacity="0.61" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #fff; -fx-border-radius: 5; -fx-border-style: none; -fx-rotate: 0; -fx-background-insets: 20; -fx-alignment: center; -fx-background-insets: 10; -fx-background-radius: 5; -fx-border-color: #000; -fx-border-width: 1;" text="Cancel" textOverrun="WORD_ELLIPSIS">
+         <effect>
+            <Reflection />
+         </effect>
+         <opaqueInsets>
+            <Insets bottom="10.0" />
+         </opaqueInsets>
+      </Button>
+      <PasswordField layoutX="130.0" layoutY="135.0" prefHeight="25.0" prefWidth="213.0">
+         <effect>
+            <Reflection fraction="0.25" topOpacity="0.48" />
+         </effect>
+      </PasswordField>
+      <TextField layoutX="130.0" layoutY="96.0" prefHeight="25.0" prefWidth="213.0">
+         <effect>
+            <Reflection fraction="0.27" />
+         </effect>
+      </TextField>
+      <Label layoutX="14.0" layoutY="100.0" text="Username:" textFill="#c9c4c4">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Label>
+      <Label layoutX="14.0" layoutY="139.0" text="Password:" textFill="#c9c4c4">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Label>
+      <Text fill="WHITE" layoutX="137.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" wrappingWidth="197.5205078125">
+         <font>
+            <Font name="Agency FB" size="39.0" />
+         </font>
+      </Text>
+    </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
